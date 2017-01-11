@@ -33,7 +33,7 @@
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
-		  	value=System.getenv("OPENSHIFT_ENV_VAR"); />
+		  	value=System.getenv("MYSQL_URL"); />
 	<!-- <property String envVar = "System.getenv("MYSQL_URL");" />
 		<property name="password" value="" /> -->
 	</bean>
